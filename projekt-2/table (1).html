@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lesson-2</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ <h1>ОСНОВНЫЕ ТЕГИ HTML</h1>
+ <table style="border: 1px solid #000000; border-collapse: collapse;">
+  <tr class="abc">
+    <td colspan="3">
+      <h3>СТРУКТУРА Web-страницы</h3>
+    </td>
+  </tr>
+  <tr>
+    <td class="code">
+      &lt;html&gt;&lt;/html&gt;
+    </td>
+    <td>
+      Начало и конец страницы
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="code">
+      &lt;head&gt;&lt;/head&gt;
+    </td>
+    <td>
+      Описание страницы, содержащее различную <br>информацию не отобродаемую в теле документа. <br>Здесь распологается тег имени страницы и теги для <br>поисковых машин.
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="code">
+      &lt;title&gt;&lt;/title&gt;
+    </td>
+    <td>
+      Имя страницы
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="code">
+      &lt;body&gt;&lt;/body&gt;
+    </td>
+    <td>
+      Определяет видимую часть страницы
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td colspan="2">
+    </td>
+    <td></td>
+  </tr>
+  <tr class="abc">
+    <td colspan="2">
+      <h3>
+        АТРИБУТЫ ТЕЛА ДОКУМЕНТА
+      </h3>
+    </td>
+    <td>
+      <h3>
+        Значение атрибутов
+      </h3>
+    </td>
+  </tr>
+  <tr>
+    <td class="code">
+      &lt;body background="URL"&gt;
+    </td>
+    <td>
+      Фоновое изображение
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="code">
+      &lt;body bgcolor="RRGGBB"&gt;
+    </td>
+    <td>
+      Цвет фона документа, импользует значение цвета в <br>виде RRGGBB - пример: FF0000 - красный цвет.
+    </td>
+    <td rowspan="5">
+      red, <br>blue, <br>#FF0000 и др.
+    </td>
+  </tr>
+  <tr>
+    <td class="code">
+      &lt;body text="#RRGGBB"&gt;
+    </td>
+    <td>
+      Цвет текста документа, используя значение цвета <br>в виде RRGGBB - пример: 000000 - чёрный цвет.
+    </td>
+  </tr>
+  <tr>
+    <td class="code">
+      &lt;body link="#RRGGBB"&gt;
+    </td>
+    <td>
+      Устонавливет цвет гиперссылок, используя значение <br>цвета в виде RRGGBB - пример: 00FF00 - зелёный цвет.
+    </td>
+  </tr>
+  <tr>
+    <td class="code">
+      &lt;body vlink="#RRGGBB"&gt;
+    </td>
+    <td>
+      Устонавливет цвет гиперссылок, на которых вы уже <br>побывали, используя значение цвета в виде RRGGBB <br>- пример: 333333 - серый цыет.
+    </td>
+  </tr>
+  <tr>
+    <td class="code">
+      &lt;body alink="#RRGGBB"&gt;
+    </td>
+    <td>
+      Устонавливет цвет гиперссылок при нажатии.
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2"></td>
+    <td></td>
+  </tr>
+  <tr class="abc">
+    <td colspan="2">
+      <h3>
+        ТЕГИ ДЛЯ ФОРМАТИРОВАНИЯ ТЕКСТА
+      </h3>
+    </td>
+    <td>
+      <h3>
+        Значение атрибутов
+      </h3>
+    </td>
+  </tr>
+  <tr>
+    <td class="code">
+      &lt;h?&gt;&lt;/h?&gt;
+    </td>
+    <td>
+      Создает заголовок (уровни 1 до 6)
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="code">
+      &lt;h? align="*"&gt;&lt;/h?&gt;
+    </td>
+    <td>
+      Заголовок с выравниванием
+    </td>
+    <td>
+      left, right, <br>center
+    </td>
+  </tr>
+  <tr>
+    <td class="code">
+      &lt;p&gt;&lt;/p&gt;
+    </td>
+    <td>
+      Создает новый пораграф
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="code">
+      &lt;p? align="*"&gt;&lt;/p?&gt;
+    </td>
+    <td>
+      Выравнивает порагроф относительно из сторон <br>документа
+    </td>
+    <td>
+      left, right, <br>center, <br>justify
+    </td>
+  </tr>
+  <tr>
+    <td class="code">
+      &lt;br&gt;
+    </td>
+    <td>
+      Вставляет перевод строки
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="code">
+      &lt;center&gt;&lt;/center&gt;
+    </td>
+    <td>
+      Выравнивает по центру
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="code">
+      &lt;div align="*"&gt;
+    </td>
+    <td>
+      Форматирование больших блоков текста страницы, <br>также используется в таблицх стилей.
+    </td>
+    <td>
+      left, right, <br>center, <br>justify
+    </td>
+  </tr>
+  <tr>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr class="abc">
+    <td colspan="2">
+      <h3>
+        ТЕГИ ДЛЯ ФОРМАТИРОВАНИЯ ШРИФТА
+      </h3>
+    </td>
+    <td>
+      <h3>
+        Значение атрибутов
+      </h3>
+    </td>
+  </tr>
+  <tr>
+    <td class="code">
+      &lt;b&gt;&lt;/b&gt;
+    </td>
+    <td>
+      <b>
+        Жирный
+      </b>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="code">
+      &lt;i&gt;&lt;/i&gt;
+    </td>
+    <td>
+      <i>
+        Курсив
+      </i>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="code">
+      &lt;u&gt;&lt;/u&gt;
+    </td>
+    <td>
+      <u>
+        Подчёркнутый
+      </u>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="code">
+      &lt;sup&gt;&lt;/sup&gt;
+    </td>
+    <td>
+      Верхний индекс - пример: a<sup>2</sup>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="code">
+      &lt;sub&gt;&lt;/sub&gt;
+    </td>
+    <td>
+      Нижний индекс - пример: a<sub>2</sub>
+    </td>
+    <td></td>
+  </tr>
+  <tr>
+    <td class="code">
+      &lt;font size=?&gt;&lt;/font&gt;
+    </td>
+    <td>
+      Размер шрифта в приделх от 1 до 7.
+    </td>
+    <td></td>
+  </tr>
+ </table>
+</body>
+</html>

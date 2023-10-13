@@ -1,0 +1,23 @@
+table, td, th {
+    border: 1px solid #245488;
+}
+
+td, th {
+    padding: 10px 20px;
+    text-align: center;
+}
+.code {
+    color: red;
+}
+h3 {
+    /*background-color: chocolate;*/
+    font-family: "Monotype Corsiva";
+}
+/*td > h3 {*/
+/*    background-color: chocolate;*/
+/*}*/
+
+.abc {
+    background-color: chocolate;
+    color: blue;
+}

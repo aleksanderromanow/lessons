@@ -30,14 +30,16 @@ img {
 }
 
 .header-title {
-    font: 42px/50.4px Fraunces;
+    font: 42px/50.4px sans-serif ;
     width: 533px;
 }
 
 .header-ref {
     display: block;
     width: 110px;
-    font: 17px/27px sans-serif ;
+    line-height: 27px;
+    font-size: 17px;
+    font-family: sans-serif;
 }
 
 .ticket {
@@ -46,7 +48,9 @@ img {
     background: #E6F7FF;
     color: #2C90C9;
     margin: 25.02px 24px 0;
-    font: 12px/16px sans-serif ;
+    line-height: 16px;
+    font-size: 12px;
+    font-family: sans-serif;
 }
 
 .content {
@@ -69,18 +73,24 @@ img {
 .content-card__title {
     width: 288px;
     margin: 8px 24px;
-    font: 25px/31.25px Fraunces;
+    line-height: 31.25px;
+    font-size: 25px;
+    font-family: sans-serif;
 }
 
 .content-card__text {
     width: 307px;
     margin: 11px 24px;
-    font: 14px/19.6px sans-serif ;
+    line-height: 19.6px;
+    font-size: 14px;
+    font-family: sans-serif;
 }
 
 .content-card__date {
     display: block;
     width: 90px;
     margin: 16px 24px 0;
-    font: 12px/19.6px sans-serif ;
+    line-height: 19.6px;
+    font-size: 12px;
+    font-family: sans-serif;
 }

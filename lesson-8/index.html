@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width-device-width initial-scale-1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <link a href="css/style.css" rel="stylesheet" type="text/css">
+    <title>Order</title>
+</head>
+<body>
+
+<form class="wrapper">
+    <div class="order">
+        <h2 class="head-text">Оформить заказ</h2>
+        <label class="order__label">
+            ФИО*
+            <input type="text" required class="text-input" placeholder="Введите ваше ФИО">
+        </label>
+        <label class="order__label">
+            Телефон*
+            <input type="tel" required class="text-input" placeholder="Введите ваш номер телефона">
+        </label>
+        <label class="order__label">
+            Email*
+            <input type="email" required class="text-input" placeholder="Введите ваш email">
+        </label>
+        <label class="order__label">
+            Адрес*
+            <input type="text" required class="text-input" placeholder="Введите ваш адрес">
+        </label>
+        <label class="order__label">
+            Примечание к заказу
+            <textarea></textarea>
+        </label>
+        <button type="submit" class="order-button">Оформить заказ</button>
+    </div>
+
+    <div class="delivery">
+        <h2 class="head-text">Способ доставки</h2>
+
+        <div class="radio">
+            <input type="radio" class="radio__input" name="delivery" id="radio_1" checked="checked">
+            <label class="radio__label" for="radio_1">Склад РБ</label>
+        </div>
+        <p class="delivery__text">Это самый удобный, бесплатный и быстрый способ получения заказа!</p>
+        <p class="delivery__text">Адрес склада: г.Гродно, ул. Добрая, 1</p>
+        <p class="delivery__text">Отгрузка осуществляется по предварительной договоренности, телефон для связи +375 (15)
+            235 12 14</p>
+
+        <div class="radio">
+            <input type="radio" class="radio__input" checked="checked" name="delivery" id="radio_2">
+            <label class="radio__label" for="radio_2">Склад РФ</label>
+        </div>
+        <p class="delivery__text">Это самый удобный, бесплатный и быстрый способ получения заказа!</p>
+        <p class="delivery__text">Адрес склада: г. Москва, ул. Летняя, д.2, склад 15</p>
+        <p class="delivery__text">Отгрузка осуществляется по предварительной договоренности, телефон для связи +7 777
+            077 33 44</p>
+
+        <div class="radio">
+            <input type="radio" class="radio__input" checked="checked" name="delivery" id="radio_3">
+            <label class="radio__label" for="radio_3">Доставка</label>
+        </div>
+        <p class="delivery__text">Сроки доставки товара покупателю устанавливаются договором. Если доставка товара
+            произведена в установленные
+            договором сроки, но товар не был передан покупателю по его вине, повторная доставка производится после
+            повторной
+            оплаты покупателем стоимости услуг по доставке товара.</p>
+    </div>
+</form>
+
+</body>
+</html>

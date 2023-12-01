@@ -1,0 +1,21 @@
+.circle {
+    background: #456BD9;
+    clip-path: circle(50%);
+    position: absolute;
+    top: 20%;
+    left: 40%;
+    height: 15em;
+    width: 15em;
+}
+.circle:hover {
+    animation-timing-function: ease-in-out;
+    animation-name: pulse ;
+    animation-iteration-count: 3;
+    animation-duration: 3s;
+
+}
+@keyframes pulse {
+    50% {
+        transform:scale(1.2);
+    }
+}

@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../../fonts/gilroy/Gilroy-Light.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../../fonts/gilroy/Gilroy-Semibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Open sans';
+    src: url('../../fonts/open-sans/OpenSans_Condensed-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+img {
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+h2, .card__currency {
+    font: 600 22px/24.2px "Gilroy", sans-serif;
+}
+
+.card__order {
+    width: 200px;
+    height: 70px;
+    margin-bottom: 40px;
+    background: #E31E24;
+    color: #fff;
+}
+
+.card__order:hover {
+    box-shadow: 0 0 10px 0 #494747;
+    cursor: pointer;
+}
+
+.general {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 920px;
+    flex-wrap: wrap;
+    gap: 40px;
+    margin: auto;
+}
+
+.card {
+    width: 440px;
+    height: 460px;
+    box-shadow: 0 0 4px 0 #C7C7C7;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__text {
+    width: 380px;
+    text-align: center;
+    font: 400 14px/16.8px "Gilroy", sans-serif;
+}
+
+.pagination {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 99px;
+    gap: 15px;
+}
+
+.rectangle {
+    width: 50px;
+    height: 50px;
+    box-shadow: 0 0 4px 0 #C7C7C7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font: 600 18px/18px "Open sans", sans-serif;
+}
+
+.first {
+    margin-left: 45px;
+    background: #E31E24;
+    color: #FFF
+}
+
+.last {
+    margin-right: 45px;
+}
+
+.rectangle:hover {
+    background: #E31E24;
+    color: #FFF;
+    cursor: pointer;
+}

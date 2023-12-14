@@ -1,0 +1,115 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../fonts/montserrat/Montserrat-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../fonts/montserrat/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 500 1px "Montserrat", sans-serif;
+}
+
+h1 {
+    font: 700 40px/48.76px "Montserrat", sans-serif;
+    color: #E31E24;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80px;
+    height: 80px;
+}
+
+.mrt-text {
+    color: #2753A2;
+}
+
+.general {
+    width: 1220px;
+    margin: auto;
+}
+
+.addvert {
+    width: 773px;
+    font: 500 26px/31.2px "Montserrat", sans-serif;
+    text-align: center;
+    margin: 20px 192px 0;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    font: 500 20px/28px "Montserrat", sans-serif;
+}
+
+.body-part {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-top: 65px;
+    width: 390px;
+    height: 473px;
+    box-shadow: 0 0 10px 0 #2753A240;
+    padding-top: 50px;
+}
+
+.body-part__title {
+    color: #2753A2;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.body-part__text {
+    width: 350px;
+    text-align: center;
+    margin: 10px 20px 0;
+}
+
+.cervical__title {
+    font-size: 1.3em;
+    line-height: 1.3em;
+}
+
+.cervical__text {
+    font-size: 1em;
+    line-height: 1.3em;
+}
+
+.thoracic__title {
+    font-size: 26rem;
+    line-height: 31.69rem;
+}
+
+.thoracic__text {
+    font-size: 20rem;
+    line-height: 28rem;
+}
+
+.lumbar__title {
+    font-size: 26px;
+    line-height: 31.69px;
+}
+
+.lumbar__text {
+    font-size: 20px;
+    line-height: 28px;
+}

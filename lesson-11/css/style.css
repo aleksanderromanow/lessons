@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Candal&family=Montserrat:ital,wght@0,300;0,500;0,700;1,300&family=Open+Sans:wght@400;600&family=Roboto:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Candal&family=Montserrat:ital,wght@0,300;0,500;0,700;1,300&family=Open+Sans:wght@400;600&family=Roboto:wght@400;500&display=swap');
+
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    background-color: transparent;
+}
+
+.wrapper {
+    background: #1B222E;
+    color: #fff;
+    display: grid;
+    grid-template-columns: minmax(290px, 342px) 1fr;
+    grid-template-areas: "header header"
+                       "aside content"
+                       "footer footer";
+}
+
+header {
+    grid-area: header;
+}
+
+aside {
+    grid-area: aside;
+}
+
+main {
+    grid-area: content;
+}
+
+footer {
+    grid-area: footer;
+}
+
+.header-first, .header-search, .header-search__search {
+    display: flex;
+    justify-content: space-between;
+    padding: 13px 81px 13px 65px;
+}
+
+.search, .category {
+    font: 400 11px/20px "Open sans";
+    padding: 10px;
+    background: #262A3E;
+    border-radius: 5px;
+}
+
+.btn {
+    font: 400 11px/20px "Open sans";
+    text-transform: uppercase;
+    background: #5E5CE6;
+    max-width: 160px;
+    width: 100%;
+    padding: 12px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.header-search__basket {
+    font: 400 11px/20px "Open sans";
+}
+
+.advert {
+    position: relative;
+}
+
+.mask-group {
+    width: 100%;
+}
+
+.advert__text {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    font: 300 32px/35px "Montserrat";
+    border-left: 2px solid #A782E9;
+    padding-left: 10px;
+}
+
+.aside {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.aside-filter {
+    font: 400 16px/24px "Open sans";
+    padding: 60px;
+}
+
+.main {
+    padding: 60px 80px 420px 0;
+}
+
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(232px, 1fr));
+    gap: 30px;
+}
+
+.card {
+    width: 232px;
+    min-height: 400px;
+    border: 1px solid #262A3E;
+    border-radius: 3%;
+    background: #262A3E;
+    position: relative;
+}
+
+.card__description {
+    position: absolute;
+    top: 153px;
+    padding: 0 16px 16px 16px;
+}
+
+.card__name {
+    font: 400 11px/16px "Open sans";
+    color: #A782E9;
+    padding: 4px 8px 4px 8px;
+    background: rgba(167, 130, 233, 0.15);
+    border-radius: 3px;
+}
+
+.card__code {
+    display: block;
+    font: 600 18px/22px "Open sans";
+    margin: 4px 0 4px;
+}
+
+.card__spec {
+    font: 400 13px/17px "Open sans";
+    color: #83878F;
+}
+
+.price__amount {
+    display: block;
+    font: 700 24px/24px "Open sans";
+    margin-top: 16px;
+}
+
+.price__recommend {
+    font: 400 13px/17px "Open sans";
+    color: #83878F;
+}
+
+.slider__img {
+    margin: 16px 0 16px 0;
+}
+
+.cart-btn {
+    width: 200px;
+    padding: 12px 64px 12px 64px;
+    border-radius: 3px;
+    background: #29B474;
+}
+
+.card:hover, .paging:hover {
+    border: 1px solid #A782E9;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.paging {
+    font: 400 14px/20px "Open sans";
+    padding: 12px 24px;
+    border: 1px solid #262A3E;
+    border-radius: 13%;
+    background: #262A3E;
+}
+
+.pagination__pages {
+    display: flex;
+    gap: 20px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-block {
+    display: flex;
+    gap: 24px;
+    font: 400 12px/24px "Open sans";
+}
+
+.footer-info__text {
+    display: block;
+}
+
+.footer-info__text.email-text {
+    font: 700 12px/24px "Open sans";
+}
+
+.social-img {
+    max-width: 201.78px;
+    max-height: 52px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 54px 92px 241px;
+}
+
+.footer__copyright {
+    font: 400 10px/24px "Open sans";
+}
+
+@media (max-width: 1024px) {
+    .paging.from {
+        display: none;
+    }
+}

@@ -1,0 +1,23 @@
+*, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.btn {
+    width: 100px;
+    height: 30px;
+    margin-bottom: 40px;
+    background: #1d8116;
+    color: #fff;
+}
